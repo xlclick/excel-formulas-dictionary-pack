@@ -15,13 +15,13 @@
   ],
   "author": "XLclick <info@xlclick.com> (https://xlclick.com)",
   "license": "MIT",
-  "homepage": "https://github.com/xlclick/excel-formulas-dictionary-by-xlclick#readme",
+  "homepage": "https://github.com/xlclick/excel-formulas-dictionary#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xlclick/excel-formulas-dictionary-by-xlclick.git"
+    "url": "git+https://github.com/xlclick/excel-formulas-dictionary.git"
   },
   "bugs": {
-    "url": "https://github.com/xlclick/excel-formulas-dictionary-by-xlclick/issues"
+    "url": "https://github.com/xlclick/excel-formulas-dictionary/issues"
   },
   "exports": {
     ".": {
