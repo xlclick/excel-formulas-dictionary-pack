@@ -1,0 +1,46 @@
+{
+  "name": "excel-formulas-dictionary-by-xlclick",
+  "version": "1.0.0",
+  "description": "A structured dictionary of 78 Excel formulas with search, filter, and lookup. Offline-first, zero dependencies.",
+  "keywords": [
+    "excel",
+    "formulas",
+    "dictionary",
+    "spreadsheet",
+    "lookup",
+    "xlookup",
+    "vlookup",
+    "financial",
+    "office"
+  ],
+  "author": "XLclick <info@xlclick.com> (https://xlclick.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/xlclick/excel-formulas-dictionary#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlclick/excel-formulas-dictionary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xlclick/excel-formulas-dictionary/issues"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "type": "module",
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts",
+    "data/formulas.json"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
